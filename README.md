@@ -1,1 +1,16 @@
+Project Name : Edge Computing in Healthcare
+
 This presentation introduces a Cloud-Fog Based Architecture for IoT Healthcare Applications. The core problem is the high latency and energy inefficiency faced by current cloud-only systems when handling critical patient data from devices like ICU monitors and wearables. This is an edge computing problem because life-threatening delays are avoided by processing time-sensitive tasks (like emergency detection) locally at the Fog Layer. The proposed system features a Fog Broker that manages task allocation using the Weighted Sum Method (WSM) for prioritization and the Modified Best Available Resource (MBAR) algorithm for efficient resource assignment. Simulation results confirm that this hybrid approach significantly reduces latency and improves real-time performance for critical healthcare tasks.
+
+
+Tech Stack  :
+Java  ,
+Edge Computing Architecture   ,
+Fog Computing Model   ,
+IoT Device Simulation   ,
+CSV-based task input  ,
+Performance Metrics Collection
+
+How to Run :
+javac *.java     ,  
+java Main
